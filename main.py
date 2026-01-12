@@ -59,3 +59,58 @@ while True:
     if word_complete:
         print("mogebulia! sityvaa:", secretWord)
         break  
+    if lives == 5:
+        print('============='
+              '|           |'
+              '|           |'
+              '|           O'
+              '|            '
+              '|            '
+              '|'
+              '|')
+    elif lives == 4:
+        print('============='
+              '|           |'
+              '|           |'
+              '|           O'
+              '|           |'
+              '|          '  
+              '|'
+              '|')
+    elif lives == 3:
+        print('============='
+              '|           |'
+              '|           |'
+              '|           O'
+              '|          /|'
+              '|          '
+              '|'
+              '|')
+    elif lives == 2:
+        print('============='
+              '|           |'
+              '|           |'
+              '|           O'
+              '|          /|\ '
+              '|          '
+              '|'
+              '|')
+    elif lives == 1:
+        print('============='
+              '|           |'
+              '|           |'
+              '|           O'
+              '|          /|\ '
+              '|          /'
+              '|'
+              '|')
+    elif lives == 0:
+        print('============='
+              '|           |'
+              '|           |'
+              '|           O'
+              '|          /|\ '
+              '|          / \ '
+              '|'
+              '|' 
+              'shen waage! sityva iyo: ', secretWord)
