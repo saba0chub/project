@@ -122,4 +122,3 @@ while True:
         print('|          / \\')
         print('|')
         print('|')
-        print('shen waage! sityva iyo: ', secretWord)
