@@ -58,59 +58,67 @@ while True:
             break  
     if word_complete:
         print("mogebulia! sityvaa:", secretWord)
-        break  
-    if lives == 5:
-        print('============='
-              '|           |'
-              '|           |'
-              '|           O'
-              '|            '
-              '|            '
-              '|'
-              '|')
+        break
+    if lives == 6:
+        print('=============')
+        print('|           |')
+        print('|           |')
+        print('|           ')
+        print('|            ')
+        print('|            ')
+        print('|')
+        print('|')
+    elif lives == 5:
+        print('=============')
+        print('|           |')
+        print('|           |')
+        print('|           O')
+        print('|            ')
+        print('|            ')
+        print('|')
+        print('|')
     elif lives == 4:
-        print('============='
-              '|           |'
-              '|           |'
-              '|           O'
-              '|           |'
-              '|          '  
-              '|'
-              '|')
+        print('=============')
+        print('|           |')
+        print('|           |')
+        print('|           O')
+        print('|           |')
+        print('|            ')
+        print('|')
+        print('|')
     elif lives == 3:
-        print('============='
-              '|           |'
-              '|           |'
-              '|           O'
-              '|          /|'
-              '|          '
-              '|'
-              '|')
+        print('=============')
+        print('|           |')
+        print('|           |')
+        print('|           O')
+        print('|          /|')
+        print('|            ')
+        print('|')
+        print('|')
     elif lives == 2:
-        print('============='
-              '|           |'
-              '|           |'
-              '|           O'
-              '|          /|\ '
-              '|          '
-              '|'
-              '|')
+        print('=============')
+        print('|           |')
+        print('|           |')
+        print('|           O')
+        print('|          /|\\')
+        print('|            ')
+        print('|')
+        print('|')
     elif lives == 1:
-        print('============='
-              '|           |'
-              '|           |'
-              '|           O'
-              '|          /|\ '
-              '|          /'
-              '|'
-              '|')
+        print('=============')
+        print('|           |')
+        print('|           |')
+        print('|           O')
+        print('|          /|\\')
+        print('|          / ')
+        print('|')
+        print('|')
     elif lives == 0:
-        print('============='
-              '|           |'
-              '|           |'
-              '|           O'
-              '|          /|\ '
-              '|          / \ '
-              '|'
-              '|' 
-              'shen waage! sityva iyo: ', secretWord)
+        print('=============')
+        print('|           |')
+        print('|           |')
+        print('|           O')
+        print('|          /|\\')
+        print('|          / \\')
+        print('|')
+        print('|')
